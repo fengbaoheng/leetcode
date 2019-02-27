@@ -61,46 +61,18 @@ public class Solution
 {
     public bool IsSameTree(TreeNode p, TreeNode q)
     {
-        // 存在空树
-        if (p == null || q == null)
+        if (p == null && q == null)
         {
-            return p == null && q == null ? true : false;
+            return true;
         }
-
-        // 两颗树都不为空
-        var pQueue = new Queue<TreeNode>();
-        var qQueue = new Queue<TreeNode>();
-
-        pQueue.Enqueue(p);
-        qQueue.Enqueue(q);
-
-        while (pQueue.Count != 0 && qQueue.Count != 0)
+        else if (p == null || q == null)
         {
-            var pTop = pQueue.Dequeue();
-            var qTop = qQueue.Dequeue();
-
-            if (pTop == null && qTop == null)
-            {
-                continue;
-            }
-            else if (pTop == null || qTop == null)
-            {
-                return false;
-            }
-            else if (pTop.val != qTop.val)
-            {
-                return false;
-            }
-            else
-            {
-                pQueue.Enqueue(pTop.left);
-                pQueue.Enqueue(pTop.right);
-                qQueue.Enqueue(qTop.left);
-                qQueue.Enqueue(qTop.right);
-            }
+            return false;
         }
-
-        return true;
+        else
+        {
+            return (p.val == q.val && IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right));
+        }
     }
 }
 
