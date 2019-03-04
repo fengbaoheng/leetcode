@@ -57,32 +57,18 @@ public class Solution
         }
 
         int circle = 0;
-        for (int i = 0; i < s.Length; i++)
+        int direction = -1;
+
+        foreach (var ch in s)
         {
-            if (circle == 0)
-            {
-                charList[circle].Add(s[i]);
-            }
-            else if (circle == numRows - 1)
-            {
-                // 最后一个数
-                charList[circle].Add(s[i]);
-                circle = -1;
-                i = i + numRows - 2;
-            }
-            else
-            {
-                // 添加两个数
-                charList[circle].Add(s[i]);
+            charList[circle].Add(ch);
 
-                int zIndex = i - circle + numRows + numRows - 2 - circle;
-                if (zIndex < s.Length)
-                {
-                    charList[circle].Add(s[zIndex]);
-                }
+            if (circle == 0 || circle == numRows - 1)
+            {
+                direction = -direction;
             }
 
-            circle++;
+            circle = circle + direction;
         }
 
         for (int i = 1; i < numRows; i++)
