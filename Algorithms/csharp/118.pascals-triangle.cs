@@ -30,9 +30,37 @@
  * ]
  * 
  */
-public class Solution {
-    public IList<IList<int>> Generate(int numRows) {
-        
+public class Solution
+{
+    public IList<IList<int>> Generate(int numRows)
+    {
+        var results = new List<IList<int>>();
+        if (numRows <= 0) { return results; }
+
+        // 递归初始条件
+        results.Add(new List<int> { 1 });
+
+        // 递归添加
+        for (int i = 1; i < numRows; i++)
+        {
+            // 初始化, 并在头部+1
+            var result = new List<int> { 1 };
+
+            // 依次计算相邻的和
+            var lastResult = results[i - 1];
+            for (int j = 0; j < lastResult.Count - 1; j++)
+            {
+                result.Add(lastResult[j] + lastResult[j + 1]);
+            }
+
+            // 尾部+1
+            result.Add(1);
+
+            results.Add(result);
+        }
+
+        return results;
     }
+
 }
 
