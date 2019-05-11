@@ -8,4 +8,5 @@ Python、C#
 https://leetcode-cn.com/fengbaoheng/
 
 ## 进度
-![179/865 - 20.69%](https://img.shields.io/badge/179/865-20.69%25-green.svg)
+
+![](https://img.shields.io/badge/解决:218/873-24.97%-green.svg)
