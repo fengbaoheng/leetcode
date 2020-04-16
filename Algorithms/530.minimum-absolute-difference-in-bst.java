@@ -16,7 +16,27 @@
  */
 class Solution {
     public int getMinimumDifference(TreeNode root) {
+        return getMinimumDifference(root, null, null);
+    }
 
+    private int getMinimumDifference(TreeNode root, Integer max, Integer min) {
+        int minDiff = Integer.MAX_VALUE;
+        if (root == null) {
+            return minDiff;
+        }
+
+        if (max != null) {
+            minDiff = Math.min(minDiff, max - root.val);
+        }
+
+        if (min != null) {
+            minDiff = Math.min(minDiff, root.val - min);
+        }
+
+        minDiff = Math.min(minDiff, getMinimumDifference(root.left, root.val, min));
+        minDiff = Math.min(minDiff, getMinimumDifference(root.right, max, root.val));
+
+        return minDiff;
     }
 }
 // @lc code=end
