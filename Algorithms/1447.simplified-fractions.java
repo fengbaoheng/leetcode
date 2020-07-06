@@ -6,46 +6,61 @@
 
 // @lc code=start
 import java.util.*;
+import java.util.stream.Collectors;
 
 class Solution {
     public List<String> simplifiedFractions(int n) {
-        List<String> list = new LinkedList<>();
-        for (int i = 1; i <= n; i++) {
-            list.addAll(fractions(i));
-        }
-        return list;
-    }
-
-    private List<String> fractions(int d) {
-        List<String> list = new ArrayList<>(d);
-
-        boolean[] numerator = getNumerator(d);
-        for (int i = 1; i < numerator.length; i++) {
-            if (numerator[i]) {
-                list.add(getFraction(i, d));
+        Set<Fraction> set = new HashSet<>();
+        for (int i = 2; i <= n; i++) {
+            for (int j = 1; j < i; j++) {
+                set.add(new Fraction(j, i));
             }
         }
-        return list;
+
+        return set.stream().map(Fraction::toString).collect(Collectors.toList());
     }
 
-    private boolean[] getNumerator(int d) {
-        boolean[] numerator = new boolean[d + 1];
-        Arrays.fill(numerator, true);
-        numerator[d] = false;
-        for (int i = 2; i < d; i++) {
-            if (numerator[i] && d % i == 0) {
-                int j = i;
-                while (j < d) {
-                    numerator[j] = false;
-                    j += i;
-                }
-            }
+    private static class Fraction {
+        private int a, b;
+
+        public Fraction(int a, int b) {
+            this.a = a;
+            this.b = b;
+            simplify();
         }
-        return numerator;
-    }
 
-    private String getFraction(int m, int d) {
-        return String.format("%d/%d", m, d);
+        // 化简分数
+        private void simplify() {
+            int m = gcd(a, b);
+            this.a /= m;
+            this.b /= m;
+        }
+
+        // 求最大公约数
+        private int gcd(int a, int b) {
+            if (b == 0) {
+                return a;
+            }
+            return gcd(b, a % b);
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof Fraction)) return false;
+            Fraction fraction = (Fraction) o;
+            return a == fraction.a && b == fraction.b;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(a, b);
+        }
+
+        @Override
+        public String toString() {
+            return String.format("%d/%d", a, b);
+        }
     }
 }
 // @lc code=end
