@@ -1,7 +1,6 @@
-package algorithms.CheckIfTwoStringArraysAreEquivalent;
+package algorithms;
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+public class CheckIfTwoStringArraysAreEquivalent {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         return combine(word1).equals(combine(word2));
     }
@@ -15,4 +14,3 @@ class Solution {
         return builder.toString();
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

@@ -1,12 +1,9 @@
-package algorithms.DefuseTheBomb;
+package algorithms;
 
 /**
  * 1652.拆炸弹
- * DefuseTheBomb
  */
-
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class DefuseTheBomb {
     public int[] decrypt(int[] code, int k) {
         int n = code.length;
         int[] sum = new int[n];
@@ -59,4 +56,3 @@ class Solution {
         return i == 0 ? sum[j] : sum[j] - sum[i - 1];
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

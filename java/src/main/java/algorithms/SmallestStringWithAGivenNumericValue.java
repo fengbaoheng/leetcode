@@ -1,14 +1,11 @@
-package algorithms.SmallestStringWithAGivenNumericValue;
+package algorithms;
 
 import java.util.Arrays;
 
 /**
  * 1663.具有给定数值的最小字符串
- * SmallestStringWithAGivenNumericValue
  */
-
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class SmallestStringWithAGivenNumericValue {
     public String getSmallestString(int n, int k) {
         int[] values = new int[n];
         Arrays.fill(values, 1);
@@ -36,4 +33,3 @@ class Solution {
         return builder.toString();
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
