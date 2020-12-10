@@ -5,4 +5,5 @@
 |  1663 | [具有给定数值的最小字符串](src/main/java/algorithms/SmallestStringWithAGivenNumericValue.java) |
 |  1668 | [最大重复子字符串](src/main/java/algorithms/MaximumRepeatingSubstring.java) |
 |  1669 | [合并两个链表](src/main/java/algorithms/MergeInBetweenLinkedLists.java) |
-|  1678 | [设计 Goal 解析器](src/main/java/algorithms/GoalParserInterpretation.java) |
+|  1678 | [设计Goal解析器](src/main/java/algorithms/GoalParserInterpretation.java) |
+|  1679 | [K和数对的最大数目](src/main/java/algorithms/MaxNumberOfKSumPairs.java) |
