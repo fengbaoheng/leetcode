@@ -7,4 +7,5 @@
 |  1669 | [合并两个链表](src/main/java/algorithms/MergeInBetweenLinkedLists.java) |
 |  1678 | [设计Goal解析器](src/main/java/algorithms/GoalParserInterpretation.java) |
 |  1679 | [K和数对的最大数目](src/main/java/algorithms/MaxNumberOfKSumPairs.java) |
+|  1684 | [统计一致字符串的数目](src/main/java/algorithms/CountTheNumberOfConsistentStrings.java) |
 |  1688 | [比赛中的配对次数](src/main/java/algorithms/CountOfMatchesInTournament.java) |
