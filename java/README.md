@@ -10,3 +10,4 @@
 |  1684 | [统计一致字符串的数目](src/main/java/algorithms/CountTheNumberOfConsistentStrings.java) |
 |  1688 | [比赛中的配对次数](src/main/java/algorithms/CountOfMatchesInTournament.java) |
 |  1689 | [十-二进制数的最少数目](src/main/java/algorithms/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java) |
+|  1710 | [卡车上的最大单元数](src/main/java/algorithms/MaximumUnitsOnATruck.java) |
