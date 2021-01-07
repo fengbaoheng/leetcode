@@ -15,3 +15,4 @@
 |  1701 | [平均等待时间](src/main/java/algorithms/AverageWaitingTime.java) |
 |  1704 | [判断字符串的两半是否相似](src/main/java/algorithms/DetermineIfStringHalvesAreAlike.java) |
 |  1710 | [卡车上的最大单元数](src/main/java/algorithms/MaximumUnitsOnATruck.java) |
+|  1711 | [大餐计数](src/main/java/algorithms/CountGoodMeals.java) |
