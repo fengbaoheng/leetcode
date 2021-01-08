@@ -14,5 +14,6 @@
 |  1700 | [无法吃午餐的学生数量](src/main/java/algorithms/NumberOfStudentsUnableToEatLunch.java) |
 |  1701 | [平均等待时间](src/main/java/algorithms/AverageWaitingTime.java) |
 |  1704 | [判断字符串的两半是否相似](src/main/java/algorithms/DetermineIfStringHalvesAreAlike.java) |
+|  1706 | [球会落何处](src/main/java/algorithms/WhereWillTheBallFall.java) |
 |  1710 | [卡车上的最大单元数](src/main/java/algorithms/MaximumUnitsOnATruck.java) |
 |  1711 | [大餐计数](src/main/java/algorithms/CountGoodMeals.java) |
