@@ -11,6 +11,7 @@
 |  1688 | [比赛中的配对次数](src/main/java/algorithms/CountOfMatchesInTournament.java) |
 |  1689 | [十-二进制数的最少数目](src/main/java/algorithms/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java) |
 |  1694 | [重新格式化电话号码](src/main/java/algorithms/ReformatPhoneNumber.java) |
+|  1695 | [删除子数组的最大得分](src/main/java/algorithms/MaximumErasureValue.java) |
 |  1700 | [无法吃午餐的学生数量](src/main/java/algorithms/NumberOfStudentsUnableToEatLunch.java) |
 |  1701 | [平均等待时间](src/main/java/algorithms/AverageWaitingTime.java) |
 |  1704 | [判断字符串的两半是否相似](src/main/java/algorithms/DetermineIfStringHalvesAreAlike.java) |
