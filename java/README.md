@@ -19,3 +19,4 @@
 |  1706 | [球会落何处](src/main/java/algorithms/WhereWillTheBallFall.java) |
 |  1710 | [卡车上的最大单元数](src/main/java/algorithms/MaximumUnitsOnATruck.java) |
 |  1711 | [大餐计数](src/main/java/algorithms/CountGoodMeals.java) |
+|  1716 | [计算力扣银行的钱](src/main/java/algorithms/CalculateMoneyInLeetcodeBank.java) |
