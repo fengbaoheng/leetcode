@@ -21,3 +21,4 @@
 |  1711 | [大餐计数](src/main/java/algorithms/CountGoodMeals.java) |
 |  1716 | [计算力扣银行的钱](src/main/java/algorithms/CalculateMoneyInLeetcodeBank.java) |
 |  1722 | [执行交换操作后的最小汉明距离](src/main/java/algorithms/MinimizeHammingDistanceAfterSwapOperations.java) |
+|  1736 | [替换隐藏数字得到的最晚时间](src/main/java/algorithms/LatestTimeByReplacingHiddenDigits.java) |
