@@ -7,7 +7,7 @@ public class ListNode {
         ListNode head = new ListNode(-1);
         ListNode tail = head;
 
-        for (Integer nodeVal : nodes){
+        for (Integer nodeVal : nodes) {
             tail.next = new ListNode(nodeVal);
             tail = tail.next;
         }
@@ -15,8 +15,8 @@ public class ListNode {
         return head.next;
     }
 
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     ListNode(int x) {
         val = x;
