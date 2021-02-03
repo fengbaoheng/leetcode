@@ -26,3 +26,4 @@
 |  1725 | [可以形成最大正方形的矩形数目](src/main/java/algorithms/NumberOfRectanglesThatCanFormTheLargestSquare.java) |
 |  1732 | [找到最高海拔](src/main/java/algorithms/FindTheHighestAltitude.java) |
 |  1736 | [替换隐藏数字得到的最晚时间](src/main/java/algorithms/LatestTimeByReplacingHiddenDigits.java) |
+|  1742 | [盒子中小球的最大数量](src/main/java/algorithms/MaximumNumberOfBallsInABox.java) |
