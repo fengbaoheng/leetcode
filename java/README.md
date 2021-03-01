@@ -30,3 +30,4 @@
 |  1742 | [盒子中小球的最大数量](src/main/java/algorithms/MaximumNumberOfBallsInABox.java) |
 |  1749 | [任意子数组和的绝对值的最大值](src/main/java/algorithms/MaximumAbsoluteSumOfAnySubarray.java) |
 |  1768 | [交替合并字符串](src/main/java/algorithms/MergeStringsAlternately.java) |
+|  1773 | [统计匹配检索规则的物品数量](src/main/java/algorithms/CountItemsMatchingARule.java) |
