@@ -31,3 +31,4 @@
 |  1749 | [任意子数组和的绝对值的最大值](src/main/java/algorithms/MaximumAbsoluteSumOfAnySubarray.java) |
 |  1768 | [交替合并字符串](src/main/java/algorithms/MergeStringsAlternately.java) |
 |  1773 | [统计匹配检索规则的物品数量](src/main/java/algorithms/CountItemsMatchingARule.java) |
+|  1790 | [仅执行一次字符串交换能否使两个字符串相等](src/main/java/algorithms/CheckIfOneStringSwapCanMakeStringsEqual.java) |
