@@ -34,3 +34,4 @@
 |  1784 | [检查二进制字符串字段](src/main/java/algorithms/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java) |
 |  1790 | [仅执行一次字符串交换能否使两个字符串相等](src/main/java/algorithms/CheckIfOneStringSwapCanMakeStringsEqual.java) |
 |  1791 | [找出星型图的中心节点](src/main/java/algorithms/FindCenterOfStarGraph.java) |
+|  1792 | [最大平均通过率](src/main/java/algorithms/MaximumAveragePassRatio.java) |
