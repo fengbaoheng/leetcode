@@ -32,6 +32,7 @@
 |  1768 | [交替合并字符串](src/main/java/algorithms/MergeStringsAlternately.java) |
 |  1773 | [统计匹配检索规则的物品数量](src/main/java/algorithms/CountItemsMatchingARule.java) |
 |  1775 | [通过最少操作次数使数组的和相等](src/main/java/algorithms/EqualSumArraysWithMinimumNumberOfOperations.java) |
+|  1781 | [所有子字符串美丽值之和](src/main/java/algorithms/SumOfBeautyOfAllSubstrings.java) |
 |  1784 | [检查二进制字符串字段](src/main/java/algorithms/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java) |
 |  1790 | [仅执行一次字符串交换能否使两个字符串相等](src/main/java/algorithms/CheckIfOneStringSwapCanMakeStringsEqual.java) |
 |  1791 | [找出星型图的中心节点](src/main/java/algorithms/FindCenterOfStarGraph.java) |
