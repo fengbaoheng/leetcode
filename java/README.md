@@ -34,10 +34,13 @@
 |  1732 | [找到最高海拔](src/main/java/algorithms/Problem1732.java) |
 |  1736 | [替换隐藏数字得到的最晚时间](src/main/java/algorithms/Problem1736.java) |
 |  1742 | [盒子中小球的最大数量](src/main/java/algorithms/Problem1742.java) |
+|  1748 | [唯一元素的和](src/main/java/algorithms/Problem1748.java) |
 |  1749 | [任意子数组和的绝对值的最大值](src/main/java/algorithms/Problem1749.java) |
+|  1752 | [检查数组是否经排序和轮转得到](src/main/java/algorithms/Problem1752.java) |
 |  1768 | [交替合并字符串](src/main/java/algorithms/Problem1768.java) |
 |  1773 | [统计匹配检索规则的物品数量](src/main/java/algorithms/Problem1773.java) |
 |  1775 | [通过最少操作次数使数组的和相等](src/main/java/algorithms/Problem1775.java) |
+|  1779 | [找到最近的有相同 X 或 Y 坐标的点](src/main/java/algorithms/Problem1779.java) |
 |  1780 | [判断一个数字是否可以表示成三的幂的和](src/main/java/algorithms/Problem1780.java) |
 |  1781 | [所有子字符串美丽值之和](src/main/java/algorithms/Problem1781.java) |
 |  1784 | [检查二进制字符串字段](src/main/java/algorithms/Problem1784.java) |
