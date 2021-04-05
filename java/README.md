@@ -47,3 +47,9 @@
 |  1790 | [仅执行一次字符串交换能否使两个字符串相等](src/main/java/algorithms/Problem1790.java) |
 |  1791 | [找出星型图的中心节点](src/main/java/algorithms/Problem1791.java) |
 |  1792 | [最大平均通过率](src/main/java/algorithms/Problem1792.java) |
+|  1796 | [字符串中第二大的数字](src/main/java/algorithms/Problem1796.java) |
+|  1800 | [最大升序子数组和](src/main/java/algorithms/Problem1800.java) |
+|  1806 | [还原排列的最少操作步数](src/main/java/algorithms/Problem1806.java) |
+|  1812 | [判断国际象棋棋盘中一个格子的颜色](src/main/java/algorithms/Problem1812.java) |
+|  1816 | [截断句子](src/main/java/algorithms/Problem1816.java) |
+|  1817 | [查找用户活跃分钟数](src/main/java/algorithms/Problem1817.java) |
