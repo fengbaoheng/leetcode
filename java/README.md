@@ -37,6 +37,7 @@
 |  1748 | [唯一元素的和](src/main/java/algorithms/Problem1748.java) |
 |  1749 | [任意子数组和的绝对值的最大值](src/main/java/algorithms/Problem1749.java) |
 |  1752 | [检查数组是否经排序和轮转得到](src/main/java/algorithms/Problem1752.java) |
+|  1765 | [地图中的最高点](src/main/java/algorithms/Problem1765.java) |
 |  1768 | [交替合并字符串](src/main/java/algorithms/Problem1768.java) |
 |  1773 | [统计匹配检索规则的物品数量](src/main/java/algorithms/Problem1773.java) |
 |  1775 | [通过最少操作次数使数组的和相等](src/main/java/algorithms/Problem1775.java) |
