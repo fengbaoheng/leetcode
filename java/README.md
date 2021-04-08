@@ -13,6 +13,7 @@
 |  1663 | [具有给定数值的最小字符串](src/main/java/algorithms/Problem1663.java) |
 |  1668 | [最大重复子字符串](src/main/java/algorithms/Problem1668.java) |
 |  1669 | [合并两个链表](src/main/java/algorithms/Problem1669.java) |
+|  1670 | [设计前中后队列](src/main/java/algorithms/Problem1670.java) |
 |  1678 | [设计Goal解析器](src/main/java/algorithms/Problem1678.java) |
 |  1679 | [K和数对的最大数目](src/main/java/algorithms/Problem1679.java) |
 |  1684 | [统计一致字符串的数目](src/main/java/algorithms/Problem1684.java) |
