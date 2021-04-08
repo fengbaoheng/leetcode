@@ -55,3 +55,4 @@
 |  1812 | [判断国际象棋棋盘中一个格子的颜色](src/main/java/algorithms/Problem1812.java) |
 |  1816 | [截断句子](src/main/java/algorithms/Problem1816.java) |
 |  1817 | [查找用户活跃分钟数](src/main/java/algorithms/Problem1817.java) |
+|  1818 | [绝对差值和](src/main/java/algorithms/Problem1818.java) |
