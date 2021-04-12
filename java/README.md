@@ -54,6 +54,10 @@
 |  1805 | [字符串中不同整数的数目](src/main/java/algorithms/Problem1805.java) |
 |  1806 | [还原排列的最少操作步数](src/main/java/algorithms/Problem1806.java) |
 |  1812 | [判断国际象棋棋盘中一个格子的颜色](src/main/java/algorithms/Problem1812.java) |
+|  1813 | [句子相似性 III](src/main/java/algorithms/Problem1813.java) |
 |  1816 | [截断句子](src/main/java/algorithms/Problem1816.java) |
 |  1817 | [查找用户活跃分钟数](src/main/java/algorithms/Problem1817.java) |
 |  1818 | [绝对差值和](src/main/java/algorithms/Problem1818.java) |
+|  1822 | [数组元素积的符号](src/main/java/algorithms/Problem1822.java) |
+|  1823 | [找出游戏的获胜者](src/main/java/algorithms/Problem1823.java) |
+|  1824 | [最少侧跳次数](src/main/java/algorithms/Problem1824.java) |
