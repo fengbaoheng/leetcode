@@ -50,9 +50,11 @@
 |  1791 | [找出星型图的中心节点](src/main/java/algorithms/Problem1791.java) |
 |  1792 | [最大平均通过率](src/main/java/algorithms/Problem1792.java) |
 |  1796 | [字符串中第二大的数字](src/main/java/algorithms/Problem1796.java) |
+|  1797 | [设计一个验证系统](src/main/java/algorithms/Problem1797.java) |
 |  1800 | [最大升序子数组和](src/main/java/algorithms/Problem1800.java) |
 |  1805 | [字符串中不同整数的数目](src/main/java/algorithms/Problem1805.java) |
 |  1806 | [还原排列的最少操作步数](src/main/java/algorithms/Problem1806.java) |
+|  1807 | [替换字符串中的括号内容](src/main/java/algorithms/Problem1807.java) |
 |  1812 | [判断国际象棋棋盘中一个格子的颜色](src/main/java/algorithms/Problem1812.java) |
 |  1813 | [句子相似性 III](src/main/java/algorithms/Problem1813.java) |
 |  1816 | [截断句子](src/main/java/algorithms/Problem1816.java) |
