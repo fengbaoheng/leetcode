@@ -1,23 +1,29 @@
 package core;
 
-import java.util.*;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Parse {
-    public static int[][] parse2dIntArr(String json) {
-        // 去除左右两侧括号
-        String trim = json.substring(2, json.length() - 2);
-        // 分割
-        String[] items = trim.split("],\\[");
 
-        final int n = items.length;
-        List<int[]> result = new ArrayList<>(n);
-        for (String item : items) {
-            final int[] nums = Arrays
-                    .stream(item.split(","))
-                    .mapToInt(Integer::valueOf).toArray();
-            result.add(nums);
+    /**
+     * 解析一维整数数组
+     *
+     * @param json 输入Json字符串
+     * @return 输出一维正数数组
+     */
+    public static int[] parseIntArr(String json) {
+        try {
+            return new ObjectMapper().readValue(json, int[].class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
         }
+    }
 
-        return result.toArray(new int[0][]);
+    public static int[][] parse2dIntArr(String json) {
+        try {
+            return new ObjectMapper().readValue(json, int[][].class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

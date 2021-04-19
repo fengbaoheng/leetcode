@@ -63,3 +63,8 @@
 |  1822 | [数组元素积的符号](src/main/java/algorithms/Problem1822.java) |
 |  1823 | [找出游戏的获胜者](src/main/java/algorithms/Problem1823.java) |
 |  1824 | [最少侧跳次数](src/main/java/algorithms/Problem1824.java) |
+|  1827 | [最少操作使数组递增](src/main/java/algorithms/Problem1827.java) |
+|  1828 | [统计一个圆中点的数目](src/main/java/algorithms/Problem1828.java) |
+|  1829 | [每个查询的最大异或值](src/main/java/algorithms/Problem1829.java) |
+|  1832 | [判断句子是否为全字母句](src/main/java/algorithms/Problem1832.java) |
+|  1833 | [雪糕的最大数量](src/main/java/algorithms/Problem1833.java) |
