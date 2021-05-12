@@ -70,3 +70,4 @@
 |  1832 | [判断句子是否为全字母句](src/main/java/algorithms/Problem1832.java) |
 |  1833 | [雪糕的最大数量](src/main/java/algorithms/Problem1833.java) |
 |  1834 | [单线程 CPU](src/main/java/algorithms/Problem1834.java) |
+|  1848 | [到目标元素的最小距离 CPU](src/main/java/algorithms/Problem1848.java) |
