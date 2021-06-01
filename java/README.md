@@ -70,4 +70,11 @@
 |  1832 | [判断句子是否为全字母句](src/main/java/algorithms/Problem1832.java) |
 |  1833 | [雪糕的最大数量](src/main/java/algorithms/Problem1833.java) |
 |  1834 | [单线程 CPU](src/main/java/algorithms/Problem1834.java) |
-|  1848 | [到目标元素的最小距离 CPU](src/main/java/algorithms/Problem1848.java) |
+|  1837 | [K 进制表示下的各位数字总和](src/main/java/algorithms/Problem1837.java) |
+|  1844 | [将所有数字用字符替换](src/main/java/algorithms/Problem1844.java) |
+|  1848 | [到目标元素的最小距离](src/main/java/algorithms/Problem1848.java) |
+|  1854 | [人口最多的年份](src/main/java/algorithms/Problem1854.java) |
+|  1859 | [将句子排序](src/main/java/algorithms/Problem1859.java) |
+|  1869 | [哪种连续子字符串更长](src/main/java/algorithms/Problem1869.java) |
+|  1876 | [长度为三且各字符不同的子字符串](src/main/java/algorithms/Problem1876.java) |
+|  1880 | [检查某单词是否等于两单词之和](src/main/java/algorithms/Problem1880.java) |
